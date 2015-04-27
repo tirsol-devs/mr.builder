@@ -16,7 +16,7 @@ mr.builder is a wrapper around [Packer](https://packer.io/) to create [Vagrant](
 
 ## Documentation
 
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://$HASTOCOME
+Full documentation for end users can be found in the "docs" folder, and is also available on-line at http://$HASTOCOME
 
 
 ## Installation
@@ -27,8 +27,8 @@ For using mr.builder you need to install [Packer](https://packer.io/) first.
 ## Contribute
 
 
-- Issue Tracker:    github.com/tiramisu.solutions/mr.builder/issues
-- Source Code:      github.com/tiramisu.solutions
+- Issue Tracker:    [github.com/tiramisu.solutions/mr.builder/issues](github.com/tiramisu.solutions/mr.builder/issues)
+- Source Code:      [github.com/tiramisu.solutions/mr.builder](github.com/tiramisu.solutions/mr.builder)
 - Documentation:    tcl
 
 ## Support
