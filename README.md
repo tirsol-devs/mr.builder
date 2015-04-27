@@ -4,7 +4,7 @@ a tool to cerate Vagrant and VirtualBox Plone images
 mr.builder is a wrapper around [Packer](https://packer.io/) to create [Vagrant](https://www.vagrantup.com/ "Vagrant's Homepage") and [VirtualBox](https://www.virtualbox.org/) images for [Plone](https://plone.org) easy and fast.
 
 **Please note, the images are build for development and trying Plone, there are
-!!NOT!! meant for production, using them in prodcution is a !!huge!! security
+!!NOT!! meant for production, using them in prodcution is a !!HUGE!! security
 risk !!**
 
 ## Features
