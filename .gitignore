@@ -1,0 +1,2 @@
+# Tell git to ignore these files
+packer_cache/
