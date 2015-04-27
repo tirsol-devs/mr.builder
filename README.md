@@ -1,19 +1,18 @@
 # mr.builder
-a tool to ceate vagrant and virtualbox images
+a tool to cerate Vagrant and VirtualBox Plone images
 
-mr.builder is a wrapper arround $PACKER to create $VAGRANT and $VBOX images
-easy and fast.
+mr.builder is a wrapper around [Packer](https://packer.io/) to create [Vagrant](https://www.vagrantup.com/ "Vagrant's Homepage") and [VirtualBox](https://www.virtualbox.org/) images for [Plone](https://plone.org) easy and fast.
 
 ## Features
 
-- creates vagarnt images
-- create virtualbox image
-- same config for both
+- creates Vagrant image
+- create VirtualBox image
+- same config for both images
 - beautiful docs
 
 ## Examples
 
-$HASTOCOME
+	packer build ubuntu-1404-amd64.json
 
 ## Documentation
 
@@ -22,7 +21,7 @@ Full documentation for end users can be found in the "docs" folder, and is also 
 
 ## Installation
 
-For using mr.builder you need to install packer first.
+For using mr.builder you need to install [Packer](https://packer.io/) first.
 
 
 ## Contribute
@@ -30,7 +29,7 @@ For using mr.builder you need to install packer first.
 
 - Issue Tracker:    github.com/tiramisu.solutions/mr.builder/issues
 - Source Code:      github.com/tiramisu.solutions
-- Documentation:    $HASTOCOME
+- Documentation:    tcl
 
 ## Support
 
