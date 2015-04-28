@@ -13,14 +13,8 @@
             "scripts/filesystem.sh",
             "scripts/cleanup.sh",
             "scripts/zerodisk.sh"
-        ],
-
-    "override": {
-        "virtualbox-iso": {
-            "execute_command": "echo 'vagrant' | {{ .Vars }} sudo -E -S sh '{{ .Path }}'"
-            }
-        }
-    }],
+        ]}
+    ],
 
     "builders": [{
         "name": "plone-base-amd",
@@ -34,8 +28,8 @@
 
         "disk_size" : 10000,
 
-        "iso_url": "/home/svx/ISO/ubuntu-14.04-server-amd64.iso",
-        "iso_checksum": "01545fa976c8367b4f0d59169ac4866c",
+        "iso_url": "/home/sven/ISO/ubuntu-14.04.2-server-amd64.iso",
+        "iso_checksum": "83aabd8dcf1e8f469f3c72fff2375195",
         "iso_checksum_type": "md5",
 
         "http_directory" : "http",
@@ -51,7 +45,7 @@
         "boot_command" : [
             "<esc><esc><enter><wait>",
             "/install/vmlinuz noapic ",
-            "preseed/url=http://{{ .HTTPIP }}:{{ .HTTPPort }}/preseed-vagrant.cfg ",
+            "preseed/url=http://{{ .HTTPIP }}:{{ .HTTPPort }}/preseed.cfg ",
             "debian-installer=en_US auto locale=en_US kbd-chooser/method=us ",
             "hostname={{user `hostname`}} ",
             "fb=false debconf/frontend=noninteractive ",
@@ -63,7 +57,8 @@
 
     "post-processors": [{
         "type": "vagrant",
-        "compression_level": 9
+        "compression_level": 9,
+        "keep_input_artifact": true
     }]
 }
 
