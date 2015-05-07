@@ -1,19 +1,13 @@
 vagrant-boxes
 =============
-[![GitHub tag](http://img.shields.io/github/tag/ffuenf/vagrant-boxes.svg)][tag]
-[![Build Status](http://img.shields.io/travis/ffuenf/vagrant-boxes.svg)][travis]
-[![Gittip](http://img.shields.io/gittip/arosenhagen.svg)][gittip]
 
-[tag]: https://github.com/ffuenf/vagrant-boxes/tags
-[travis]: https://travis-ci.org/ffuenf/vagrant-boxes
-[gittip]: https://www.gittip.com/arosenhagen
 
 baseboxes build with packer for use with vagrant.
 This repository includes the packer templates to build the baseboxes.
 The build boxes are available through 
 
 * [Atlas (former Vagrantcloud)](https://atlas.hashicorp.com/ffuenf)
-* Amazon S3 (eu-central-1)
+
 
 Tools
 =====
@@ -23,7 +17,6 @@ Tools
 * [virtualbox](https://www.virtualbox.org/)
 * [VMware Fusion](http://www.vmware.com/de/products/fusion/)
 * [Parallels Desktop](http://www.parallels.com/de/products/desktop)
-* [AWS Command Line Interface](http://aws.amazon.com/cli/)
 * [Thor](http://whatisthor.com/)
 
 Usage
