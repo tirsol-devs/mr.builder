@@ -68,9 +68,8 @@
         "scripts/sudoers.sh",
         "scripts/vagrant.sh",
         "scripts/vmtools.sh",
-        "scripts/ruby.sh",
-        "scripts/chef.sh",
         "scripts/filesystem.sh",
+        "scripts/plone.sh",
         "scripts/cleanup.sh"
       ],
       "type": "shell"
