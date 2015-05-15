@@ -79,6 +79,7 @@
     [
       {
         "type": "vagrant",
+        "keep_input_artifact": true,
         "compression_level": "9",
         "output": "../builds/{{.Provider}}/{{ user `PACKER_BOX_NAME` }}_{{.Provider}}.box"
       }
