@@ -79,7 +79,7 @@
     [
       {
         "type": "vagrant",
-        "vagrantfile_template": "template/vagrantfile-ubuntu14.04.2.template",
+        "vagrantfile_template": "template/vagrantfile-plone-ubuntu.template",
         "keep_input_artifact": true,
         "compression_level": "9",
         "output": "../builds/{{.Provider}}/{{ user `PACKER_BOX_NAME` }}_{{.Provider}}.box"

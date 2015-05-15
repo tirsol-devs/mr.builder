@@ -14,5 +14,5 @@ su -c "./Plone-4.3.4-UnifiedInstaller/install.sh --password=plone standalone" va
 
 # Delete old files
 rm -rf Plone-4.3.4-UnifiedInstaller.tgz
-
+rm -rf Plone-4.3.4-UnifiedInstaller
 
