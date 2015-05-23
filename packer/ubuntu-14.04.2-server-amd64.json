@@ -69,7 +69,7 @@
         "scripts/vagrant.sh",
         "scripts/vmtools.sh",
         "scripts/filesystem.sh",
-        "scripts/plone.sh",
+        "scripts/plone5.sh",
         "scripts/cleanup.sh"
       ],
       "type": "shell"

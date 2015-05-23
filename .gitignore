@@ -1,2 +1,4 @@
 # Tell git to ignore these files
 packer_cache/
+output-plone-base-amd/
+packer/output-virtualbox-iso/
