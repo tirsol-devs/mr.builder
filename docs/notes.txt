@@ -30,3 +30,4 @@ General:
 - add circle ci for testing
 - add to Atlas
 - define upload/store space, maybe on dist.plone.org ?
+- cleanup the whole repo, remove ruby, replace with shell or python build scripts
