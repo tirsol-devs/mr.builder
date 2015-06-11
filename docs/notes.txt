@@ -10,7 +10,7 @@ Docs:
 
 Vagrantfile:
 
-- add syn option for /src
+- add sync option for /src
 
 Install:
 
