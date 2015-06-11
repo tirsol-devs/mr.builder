@@ -1,0 +1,32 @@
+Todo
+----
+
+DOCUMENTATION
+
+Docs:
+
+- update and change README
+
+
+Vagrantfile:
+
+- add syn option for /src
+
+Install:
+
+- adjust plone install path
+- adjust default password
+- add /src folder for sync
+
+VirtualBox:
+
+- add supervisor
+- start plone on boot
+- give ci[dialog] option to disable that
+- sane server-name
+
+General:
+
+- add circle ci for testing
+- add to Atlas
+- define upload/store space, maybe on dist.plone.org ?
