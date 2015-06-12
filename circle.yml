@@ -21,4 +21,4 @@ deployment:
   packer:
     branch: master
     commands:
-      - echo "Hello World"
+      - cd packer && packer build ubuntu-14.04.2-server-amd64.json
