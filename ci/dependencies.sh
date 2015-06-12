@@ -9,3 +9,10 @@ if [ ! -f "${CIRCLECI_CACHE_DIR}/packer" ]; then
 fi
 
 packer version
+
+# Install vbox
+echo "deb http://download.virtualbox.org/virtualbox/debian trusty contrib" > virtualbox.list
+sudo mv virtualbox.list /etc/apt/sources.list.d/
+wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install virtualbox-4.3
