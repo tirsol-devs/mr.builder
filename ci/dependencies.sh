@@ -15,4 +15,4 @@ echo "deb http://download.virtualbox.org/virtualbox/debian trusty contrib" > vir
 sudo mv virtualbox.list /etc/apt/sources.list.d/
 wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
 sudo apt-get update
-sudo apt-get install -y linux-headers-`uname -r` build-essential virtualbox-4.3 dkms
+sudo apt-get install -y linux-headers-generic build-essential virtualbox-4.3 dkms
