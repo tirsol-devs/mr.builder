@@ -18,3 +18,4 @@ sudo apt-get update
 sudo apt-get autoremove
 sudo apt-get install -y linux-headers-generic build-essential dkms
 sudo apt-get install -y virtualbox-4.3
+sudo /etc/init.d/vboxdrv setup
