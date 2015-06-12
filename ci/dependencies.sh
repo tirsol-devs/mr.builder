@@ -16,7 +16,7 @@ packer version
 #wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
 sudo apt-get update
 #sudo apt-get autoremove
-sudo apt-get install -y linux-headers-generic build-essential dkms
+sudo apt-get install -y linux-lowlatency build-essential dkms
 #sudo apt-get install -y virtualbox-4.3
 #sudo /etc/init.d/vboxdrv setup
 sudo apt-get install -y virtualbox virtualbox-dkms virtualbox-guest-utils virtualbox-guest-additions-iso virtualbox-ose-dkms 
